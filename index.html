@@ -18,23 +18,20 @@
 			a:link {
   				color: black;
   				}
-
   			a:visited {
   				color: deeppink;
   				background-color: transparent;
 			}
-
 			a:hover {
   				color: red;
   				background-color: transparent;
   				text-decoration: underline;
 			}
-
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
+			a:active {
+  				color: red;
+				background-color: transparent;
+  				text-decoration: underline;
+				}
 			button {
 				display: inline-block;
     			background: whitesmoke;
@@ -55,12 +52,26 @@ a:active {
     			width: 250px;
     			height: 25px;
 			}
+			button4 {
+    			width: 250px;
+    			height: 25px;
+			}
 			#outer1
 			{
 			width:100%;
     		text-align: center;
 			}
 			#outer2
+			{
+			width:100%;
+    		text-align: center;
+			}
+			#outer3
+			{
+			width:100%;
+    		text-align: center;
+			}
+			#outer4
 			{
 			width:100%;
     		text-align: center;
@@ -76,12 +87,20 @@ a:active {
 		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="https://ling.hse.ru/" class="navbar-brand">Школа лингвистики НИУ ВШЭ</a>
+					<p></p>
+					<div id="outer3">
+						<div class="inner"><button class="button4"><a href="https://ling.hse.ru/">Школа лингвистики НИУ ВШЭ</a></button></div>
+					</div>
+					<p></p>
 				</div>
 				<nav class="collapse navbar-collapse" id="bs-navbar">
 					<ul class="nav navbar-nav navbar-right">
-						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2018/index.html">Страница курса</a> </li>
-						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2018/baling_2018_1.html">Страница группы</a> </li>
+						<p></p>
+						<div id="outer4">
+						<div class="inner"><button class="button4"><a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2018/index.html">Страница курса</a></button></div>
+						<div class="inner"><button class="button4"><a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2018/baling_2018_1.html">Страница группы</a></button></div>
+						</div>
+						<p></p>
 					</ul>
 				</nav>
 			</div>
